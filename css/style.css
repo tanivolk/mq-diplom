@@ -1222,6 +1222,12 @@
       width: 100%;
     }
 
+    .section {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .aside {
       width: auto;
       margin-left: 15px;
@@ -1230,12 +1236,14 @@
     }
 
     .title-content {
+      display: block;
       width: 100%;
+      min-width: 100%;
       margin-left: auto;
       margin-top: auto;
     }
 
-    .img-post {
+    .img_post {
       width: 100%;
       margin-left: auto;
       margin-top: auto;
@@ -1277,5 +1285,10 @@
 
    .aside {
      width:100%
+   }
+
+   .img_shop {
+     width: 100%;
+     max-width: 100%;
    }
   }
